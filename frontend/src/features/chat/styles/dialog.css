@@ -1,0 +1,45 @@
+.dialog_overlay {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1000;
+}
+
+.dialog {
+  width: 400px;
+  padding: 2rem;
+  background-color: #1a1a1a;
+  color: white;
+  border: 1px solid #333;
+  border-radius: 1rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+.dialog h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.4rem;
+}
+.dialog p {
+  margin: 0;
+  color: #bdbdbd;
+  line-height: 1.5rem;
+}
+.dialog .dialog_buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.dialog .dialog_buttons button {
+  all: unset;
+  padding: 0.7rem 1.2rem;
+  border-radius: 0.5rem;
+  background-color: #262626;
+  color: white;
+  cursor: pointer;
+}
+.dialog .dialog_buttons button:hover {
+  background-color: #333;
+}/*# sourceMappingURL=dialog.css.map */
